@@ -1,0 +1,14 @@
+---
+title: <%- title %>
+<%_ if (tags.length > 0) { -%>
+tags:
+<% tags.forEach((tagItem) => { -%>
+  - <%= tagItem %>
+<% }) -%>
+<%_ } else { -%>
+tags: ~
+<%_ } -%>
+links: ~
+---
+
+# <%- title %>

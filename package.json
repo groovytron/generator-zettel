@@ -1,0 +1,34 @@
+{
+  "name": "generator-zettel",
+  "version": "1.0.0",
+  "description": "Yeoman generator for Zettel notes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nyc mocha --watch --recusrive ./test",
+    "test": "nyc mocha --recusrive ./test",
+    "lint": "npm run eslint && npm run prettier && npm run lint-templates",
+    "eslint": "eslint \"./**/*.js\"",
+    "prettier": "prettier --check \"./**/*.js\"",
+    "lint-templates": "ejslint \"generators/*/templates/*.ejs\"",
+    "fix": "prettier --write \"./**/*.js\""
+  },
+  "author": "Julien M'Poy",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.26.0",
+    "slugify": "^1.4.0",
+    "yeoman-generator": "^4.10.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-files": "^1.4.0",
+    "ejs-lint": "^1.1.0",
+    "eslint": "^7.0.0",
+    "glob": "^7.1.6",
+    "markdown-yaml-metadata-parser": "^2.0.5",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "prettier": "2.0.5",
+    "yeoman-test": "^2.6.0"
+  }
+}
