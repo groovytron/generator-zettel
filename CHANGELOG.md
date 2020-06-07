@@ -1,8 +1,12 @@
 # Changelog
 
+## 0.1.2
+
+change: when no tags are provided, the `tags` metadata contains an empty YAML list (`[]`) instead of `~`
+
 ## 0.1.1
 
-change: when no tags is given to the zettel, the `links` metadata key contains an empty YAML list (`[]`) instead of `~`
+change: the `links` metadata key contains an empty YAML list (`[]`) instead of `~`
 
 ## 0.1.0
 
