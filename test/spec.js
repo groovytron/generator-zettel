@@ -72,7 +72,7 @@ describe("Generate a zettel", () => {
         const metadata = parseFileMetadata(markdownFiles);
 
         expect(metadata.title).to.be.equal("Zettel Generated From Prompt");
-        expect(metadata.tags).to.be.equal(null);
+        expect(metadata.tags).to.eql([]);
       });
   });
 });
