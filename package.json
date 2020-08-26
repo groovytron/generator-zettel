@@ -1,6 +1,6 @@
 {
   "name": "generator-zettel",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Yeoman generator for Zettel notes",
   "keywords": ["generator", "yeoman", "zettel", "zettelkasten"],
   "homepage": "https://github.com/groovytron/generator-zettel",
