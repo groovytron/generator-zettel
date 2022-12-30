@@ -28,7 +28,7 @@
     "eslint": "^7.0.0",
     "glob": "^7.1.6",
     "markdown-yaml-metadata-parser": "^2.0.5",
-    "mocha": "^7.1.2",
+    "mocha": "^10.2.0",
     "nyc": "^15.0.1",
     "prettier": "2.0.5",
     "yeoman-test": "^2.6.0"
